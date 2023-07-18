@@ -29,3 +29,8 @@ variable "ec2_descript" {
   description = "This describes the VM is created for"
   type        = list(string)
 }
+
+variable "vpc_id" {
+  description = "This is a description of KEY NAME"
+  type        = string
+}
